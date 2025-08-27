@@ -7,16 +7,16 @@ https://localhost {
     
     # API routes go to Laravel
     handle /api* {
-        reverse_proxy backend:8000
+        reverse_proxy 127.0.0.1:8000
     }
     
     # Sanctum routes go to Laravel
     handle /sanctum* {
-        reverse_proxy backend:8000
+        reverse_proxy 127.0.0.1:8000
     }
     
     # Everything else goes to React (for development)
     handle {
-        reverse_proxy frontend:5173
+        reverse_proxy 127.0.0.1:5173
     }
 }
