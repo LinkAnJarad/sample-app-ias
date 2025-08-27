@@ -130,8 +130,7 @@ services:
       - frontend
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./localhost.pem:/localhost.pem
-      - ./localhost-key.pem:/localhost-key.pem
+      - ./certs:/certs
     ports:
       - "80:80"
       - "443:443"
