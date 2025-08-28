@@ -67,15 +67,73 @@ class AuthController extends Controller
         ], 201);
     }
 
+    // public function logout(Request $request)
+    // {
+    //     \Log::error('jojo');
+    //     try {
+    //         // Revoke all tokens for the user (for Sanctum API tokens)
+    //         if (auth()->check() && auth()->user()) {
+    //             // If using API tokens
+    //             if (method_exists(auth()->user(), 'tokens')) {
+    //                 auth()->user()->tokens()->delete();
+    //             }
+                
+    //             // If using session authentication
+    //             auth()->guard('web')->logout();
+    //         }
+            
+    //         $request->session()->invalidate();
+    //         $request->session()->regenerateToken();
+
+
+    //         return response()->noContent(); // 204 No Content
+    //     } catch (\Exception $e) {
+    //         \Log::error('Logout error: ' . $e->getMessage());
+    //         return response()->json(['error' => 'Logout failed'], 500);
+    //     }
+    // }
+
     public function logout(Request $request)
     {
-        Auth::logout();
-        $request->session()->invalidate();
-        $request->session()->regenerateToken();
+        try {
+            $user = auth()->user();
+            $userId = $user ? $user->id : 'Unknown';
+            $userEmail = $user ? $user->email : 'Unknown';
+            
+            // Log the logout attempt
+            \Log::info('User logout attempt', [
+                'user_id' => $userId,
+                'user_email' => $userEmail,
+                'ip_address' => $request->ip(),
+                'user_agent' => $request->userAgent(),
+                'timestamp' => now()->toISOString()
+            ]);
+            
+            // Perform logout
+            if (auth()->guard('web')->check()) {
+                auth()->guard('web')->logout();
+                $request->session()->invalidate();
+                $request->session()->regenerateToken();
+            }
 
-        return response()->json([
-            'message' => 'Logged out successfully'
-        ]);
+            // Log successful logout
+            \Log::info('User logged out successfully', [
+                'user_id' => $userId,
+                'user_email' => $userEmail,
+                'ip_address' => $request->ip(),
+                'timestamp' => now()->toISOString()
+            ]);
+
+            return response()->noContent(); // 204 No Content
+        } catch (\Exception $e) {
+            \Log::error('Logout error', [
+                'error' => $e->getMessage(),
+                'user_id' => auth()->id() ?? 'Unknown',
+                'ip_address' => $request->ip(),
+                'timestamp' => now()->toISOString()
+            ]);
+            return response()->json(['error' => 'Logout failed'], 500);
+        }
     }
 
     // Remove this method since it's now in routes
