@@ -48,7 +48,12 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function sendPasswordResetNotification($token)
     {
-        $resetUrl = env('FRONTEND_URL', 'http://localhost:5173') . '/reset-password?token=' . $token . '&email=' . urlencode($this->getEmailForPasswordReset());
+        $resetUrl = env('FRONTEND_URL', 'http://localhost:5173') 
+                    . '/reset-password?token=' . $token 
+                    . '&email=' . urlencode($this->getEmailForPasswordReset());
+
+        // Log the link for debugging
+        \Log::info('Password reset URL for '.$this->email.': '.$resetUrl);
 
         // Send a simple HTML email
         Mail::html("
@@ -57,8 +62,8 @@ class User extends Authenticatable implements MustVerifyEmail
                 <p style='color: #666;'>You are receiving this email because we received a password reset request for your account.</p>
                 <div style='text-align: center; margin: 30px 0;'>
                     <a href='{$resetUrl}' 
-                       style='background-color: #3b82f6; color: white; padding: 12px 24px; 
-                              text-decoration: none; border-radius: 6px; display: inline-block;'>
+                    style='background-color: #3b82f6; color: white; padding: 12px 24px; 
+                            text-decoration: none; border-radius: 6px; display: inline-block;'>
                         Reset Password
                     </a>
                 </div>
@@ -74,4 +79,7 @@ class User extends Authenticatable implements MustVerifyEmail
                     ->subject('Reset Password Notification');
         });
     }
+
+
+
 }

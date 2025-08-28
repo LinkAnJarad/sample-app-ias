@@ -72,5 +72,5 @@ Route::post('/forgot-password', [AuthController::class, 'sendPasswordResetLink']
     ->middleware('throttle:6,1')
     ->name('password.email');
 
-Route::post('/reset-password', [AuthController::class, 'resetPassword']) // ← Make sure this exists
+Route::post('/reset-password', [AuthController::class, 'resetPassword'])
     ->name('password.update');

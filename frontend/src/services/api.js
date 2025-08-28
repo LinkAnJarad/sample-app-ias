@@ -28,14 +28,19 @@ api.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.response?.status === 401) {
-      localStorage.removeItem('user');
-      if (window.location.pathname !== '/login') {
+      const isLoggedIn = !!localStorage.getItem('user');
+
+      // Only redirect if the user was logged in
+      if (isLoggedIn && window.location.pathname !== '/login') {
+        localStorage.removeItem('user');
         window.location.href = '/login';
       }
     }
+
     return Promise.reject(error);
   }
 );
+
 
 const getCsrfToken = async () => {
   return api.get('/sanctum/csrf-cookie');
