@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Mail;
+use App\Notifications\CustomVerifyEmail;
+
 
 class User extends Authenticatable implements MustVerifyEmail
 {
@@ -44,6 +46,11 @@ class User extends Authenticatable implements MustVerifyEmail
     public function getEmailForVerification()
     {
         return $this->email;
+    }
+
+    public function sendEmailVerificationNotification()
+    {
+        $this->notify(new CustomVerifyEmail());
     }
 
     public function sendPasswordResetNotification($token)
