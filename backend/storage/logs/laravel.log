@@ -11355,3 +11355,932 @@ Did you mean this?
 [2025-09-01 02:07:53] local.INFO: Login attempt {"email":"ali@gmail.com","session_id":"PYLURlXJKWlG4SrT2w0Wn7t4sCN1RKBS6KSxze4z"} 
 [2025-09-01 02:07:57] local.INFO: User logout attempt {"user_id":2,"user_email":"ali@gmail.com","ip_address":"172.18.0.5","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","timestamp":"2025-09-01T02:07:57.462406Z"} 
 [2025-09-01 02:07:57] local.INFO: User logged out successfully {"user_id":2,"user_email":"ali@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-01T02:07:57.491499Z"} 
+[2025-09-03 11:18:42] local.INFO: Email verification URL for jan@gmail.com: http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984  
+[2025-09-03 11:18:42] local.DEBUG: From: LaravelReactApp <noreply@lana.com>
+To: jan@gmail.com
+Subject: Verify Email Address
+MIME-Version: 1.0
+Date: Wed, 03 Sep 2025 11:18:42 +0000
+Message-ID: <86035b6832018ddefd2f9fb003cf6bd0@lana.com>
+Content-Type: multipart/alternative; boundary=1HFeUuZK
+
+--1HFeUuZK
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+LaravelReactApp: https://localhost
+
+# Hello!
+
+Please click the button below to verify your email address.
+
+Verify Email: http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984
+
+If you did not create an account, no further action is required.
+
+Regards,
+
+LaravelReactApp
+
+If you're having trouble clicking the "Verify Email" button, copy and paste the URL below
+into your web browser: [http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984](http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984)
+
+© 2025 LaravelReactApp. All rights reserved.
+
+
+--1HFeUuZK
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LaravelReactApp</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<style>
+@media only screen and (max-width: 600px) {
+.inner-body {
+width: 100% !important;
+}
+
+.footer {
+width: 100% !important;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.button {
+width: 100% !important;
+}
+}
+</style>
+
+</head>
+<body style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -webkit-text-size-adjust: none; background-color: #ffffff; color: #718096; height: 100%; line-height: 1.4; margin: 0; padding: 0; width: 100% !important;">
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%; background-color: #edf2f7; margin: 0; padding: 0; width: 100%;">
+<tr>
+<td align="center" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<table class="content" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%; margin: 0; padding: 0; width: 100%;">
+<tr>
+<td class="header" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; padding: 25px 0; text-align: center;">
+<a href="https://localhost" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; color: #3d4852; font-size: 19px; font-weight: bold; text-decoration: none; display: inline-block;">
+LaravelReactApp
+</a>
+</td>
+</tr>
+
+<!-- Email Body -->
+<tr>
+<td class="body" width="100%" cellpadding="0" cellspacing="0" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%; background-color: #edf2f7; border-bottom: 1px solid #edf2f7; border-top: 1px solid #edf2f7; margin: 0; padding: 0; width: 100%; border: hidden !important;">
+<table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px; background-color: #ffffff; border-color: #e8e5ef; border-radius: 2px; border-width: 1px; box-shadow: 0 2px 0 rgba(0, 0, 150, 0.025), 2px 4px 0 rgba(0, 0, 150, 0.015); margin: 0 auto; padding: 0; width: 570px;">
+<!-- Body content -->
+<tr>
+<td class="content-cell" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; max-width: 100vw; padding: 32px;">
+<h1 style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; color: #3d4852; font-size: 18px; font-weight: bold; margin-top: 0; text-align: left;">Hello!</h1>
+<p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Please click the button below to verify your email address.</p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%; margin: 30px auto; padding: 0; text-align: center; width: 100%; float: unset;">
+<tr>
+<td align="center" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<tr>
+<td align="center" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<tr>
+<td style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<a href="http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&amp;signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984" class="button button-primary" target="_blank" rel="noopener" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -webkit-text-size-adjust: none; border-radius: 4px; color: #fff; display: inline-block; overflow: hidden; text-decoration: none; background-color: #2d3748; border-bottom: 8px solid #2d3748; border-left: 18px solid #2d3748; border-right: 18px solid #2d3748; border-top: 8px solid #2d3748; word-break: break-all;">Verify Email</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">If you did not create an account, no further action is required.</p>
+<p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;">Regards,<br>
+LaravelReactApp</p>
+
+
+<table class="subcopy" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; border-top: 1px solid #e8e5ef; margin-top: 25px; padding-top: 25px;">
+<tr>
+<td style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; line-height: 1.5em; margin-top: 0; text-align: left; font-size: 14px;">If you're having trouble clicking the "Verify Email" button, copy and paste the URL below
+into your web browser: <span class="break-all" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; word-break: break-all;"><a href="http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&amp;signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; color: #3869d4; word-break: break-all;">http://localhost/api/email/verify/3/c834f9ef11d20d8e2e7a9982f077ee392010d969?expires=1756901922&amp;signature=f734bab94babb7cb6d6a7db2ef09111de9d1d0df8a40651d3592821d11a02984</a></span></p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative;">
+<table class="footer" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 570px; margin: 0 auto; padding: 0; text-align: center; width: 570px;">
+<tr>
+<td class="content-cell" align="center" style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; max-width: 100vw; padding: 32px;">
+<p style="box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; position: relative; line-height: 1.5em; margin-top: 0; color: #b0adc5; font-size: 12px; text-align: center;">© 2025 LaravelReactApp. All rights reserved.</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+--1HFeUuZK--
+  
+[2025-09-03 11:19:32] local.INFO: Verification attempt {"user_id":3,"email":"jan@gmail.com","hash_provided":"c834f9ef11d20d8e2e7a9982f077ee392010d969","email_hash":"c834f9ef11d20d8e2e7a9982f077ee392010d969","hashes_match":true} 
+[2025-09-03 11:19:32] local.INFO: Email verified successfully {"user_id":3} 
+[2025-09-03 11:19:41] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"fr60bkxpSGd2yBEsqeWxpvMCQP4iFBExdK6iKz8W"} 
+[2025-09-03 11:23:23] local.INFO: Login attempt {"email":"test@test.com","session_id":"8fOKrZKXoipPRRaHS0L3rGmXx1fflZplLMrEQVwY"} 
+[2025-09-03 11:23:41] local.INFO: User logout attempt {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","timestamp":"2025-09-03T11:23:41.622154Z"} 
+[2025-09-03 11:23:41] local.INFO: User logged out successfully {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-03T11:23:41.623865Z"} 
+[2025-09-03 11:24:57] local.INFO: Login attempt {"email":null,"session_id":"Clcf1LOrjDVOGUqgpCWdoWh50Xqa3IcIR427F3x9"} 
+[2025-09-03 11:27:24] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"DANC0VZpSldrNLxZymRaoT1ugSt2KPhACbJVmlgn"} 
+[2025-09-03 11:28:12] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"D7DbvEMfKFo30edyhp8dhrJtpAEKJSotEq3P6iBw"} 
+[2025-09-03 11:29:25] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"k2sdEUCc4msuWVBaCPztPBLuy3MoHelsM6jgPOJB"} 
+[2025-09-03 11:30:54] local.INFO: Login attempt {"email":"test@test.com","session_id":"sm6h6EKSGUmYHXWAfMOYjaoHgd8jdvQGmqC3VcvG"} 
+[2025-09-03 11:31:05] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"qAbpNDn2VoNYidfqGn7Plhq1BOESN34m3yxynLiV"} 
+[2025-09-03 11:31:47] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"dzYQE4v0hhTw8204qDGuwh7CaoQ4BpQe6CMlHsq9"} 
+[2025-09-03 11:37:09] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"6BEBjxh6H5MFoKUgFkztYzE0R8TSzIEDX7502nAF"} 
+[2025-09-03 11:38:23] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"BH6FiTpSzCv9APRrprGBtvL30t94tgkSOm7B2jUU"} 
+[2025-09-03 11:42:46] local.INFO: Login attempt {"email":"jason@gmail.com","session_id":"i5f5MrEQf9WS8O1SkSXepJ80VAjFQHYuMUIIoiZq"} 
+[2025-09-03 11:42:57] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"i5f5MrEQf9WS8O1SkSXepJ80VAjFQHYuMUIIoiZq"} 
+[2025-09-03 11:44:44] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /var/www/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:526)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(885): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php(278): route('login')
+#2 [internal function]: Illuminate\\Foundation\\Configuration\\ApplicationBuilder->Illuminate\\Foundation\\Configuration\\{closure}(Object(Illuminate\\Http\\Request))
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(117): call_user_func(Object(Closure), Object(Illuminate\\Http\\Request))
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(104): Illuminate\\Auth\\Middleware\\Authenticate->redirectTo(Object(Illuminate\\Http\\Request))
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(87): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated(Object(Illuminate\\Http\\Request), Array)
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(61): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'sanctum')
+#8 /var/www/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->Laravel\\Sanctum\\Http\\Middleware\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(25): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#47 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#48 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#49 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#50 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#51 {main}
+"} 
+[2025-09-03 11:45:17] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"5DPZ5skntDKI5YdUyBU4qHoF1tuaRtW9LflIqrDs"} 
+[2025-09-03 11:45:55] local.INFO: User logout attempt {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","user_agent":"curl/8.5.0","timestamp":"2025-09-03T11:45:55.595826Z"} 
+[2025-09-03 11:45:55] local.INFO: User logged out successfully {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-03T11:45:55.597307Z"} 
+[2025-09-03 11:47:49] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"xH6MhIOHy5m6Egc5z8zyPjtIQ4tzP4BLimVqy3Qt"} 
+[2025-09-03 11:49:11] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"OhenwKp35y1MWzxnTq521ACHdZjt9Gjngd9Ffwe1"} 
+[2025-09-03 11:50:22] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"aMIGIUD8jsimC3Y6fEcgreVWySBwJVnUJD1Z4oyr"} 
+[2025-09-03 11:52:50] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"yU7roTpqcpI0jZEOgmqCJiz11dVYLvTpx9YWBQgE"} 
+[2025-09-03 11:52:50] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"yU7roTpqcpI0jZEOgmqCJiz11dVYLvTpx9YWBQgE"} 
+[2025-09-03 11:52:50] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"yU7roTpqcpI0jZEOgmqCJiz11dVYLvTpx9YWBQgE"} 
+[2025-09-03 11:52:51] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"yU7roTpqcpI0jZEOgmqCJiz11dVYLvTpx9YWBQgE"} 
+[2025-09-03 11:52:51] local.INFO: Login attempt {"email":"wrong@example.com","session_id":"yU7roTpqcpI0jZEOgmqCJiz11dVYLvTpx9YWBQgE"} 
+[2025-09-03 11:53:53] local.INFO: Login attempt {"email":null,"session_id":"CQsfJU9lZ5rFfMfTl90mKgH6U32cutIOPE29k5kF"} 
+[2025-09-03 11:54:34] local.INFO: Login attempt {"email":null,"session_id":"CQsfJU9lZ5rFfMfTl90mKgH6U32cutIOPE29k5kF"} 
+[2025-09-03 11:55:11] local.INFO: Login attempt {"email":"wrongexample_com","session_id":"CQsfJU9lZ5rFfMfTl90mKgH6U32cutIOPE29k5kF"} 
+[2025-09-03 11:57:54] local.INFO: Password reset URL for jan@gmail.com: https://localhost/reset-password?token=82047fd409e81dae926276528cf2524f380908357644a5d80cae343638bebe59&email=jan%40gmail.com  
+[2025-09-03 11:57:54] local.DEBUG: From: LaravelReactApp <noreply@lana.com>
+To: jan@gmail.com
+Subject: Reset Password Notification
+MIME-Version: 1.0
+Date: Wed, 03 Sep 2025 11:57:54 +0000
+Message-ID: <07fc36a4188be0a27b64e8056bbc4c1c@lana.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+            <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+                <h2 style='color: #333;'>Reset Password</h2>
+                <p style='color: #666;'>You are receiving this email because we received a password reset request for your account.</p>
+                <div style='text-align: center; margin: 30px 0;'>
+                    <a href='https://localhost/reset-password?token=82047fd409e81dae926276528cf2524f380908357644a5d80cae343638bebe59&email=jan%40gmail.com' 
+                    style='background-color: #3b82f6; color: white; padding: 12px 24px; 
+                            text-decoration: none; border-radius: 6px; display: inline-block;'>
+                        Reset Password
+                    </a>
+                </div>
+                <p style='color: #666; font-size: 14px;'>
+                    If you did not request a password reset, no further action is required.
+                </p>
+                <p style='color: #999; font-size: 12px; margin-top: 30px;'>
+                    This password reset link will expire in 60 minutes.
+                </p>
+            </div>
+          
+[2025-09-03 11:58:21] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"6BEBjxh6H5MFoKUgFkztYzE0R8TSzIEDX7502nAF"} 
+[2025-09-03 11:58:32] local.INFO: User logout attempt {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","timestamp":"2025-09-03T11:58:32.011812Z"} 
+[2025-09-03 11:58:32] local.INFO: User logged out successfully {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-03T11:58:32.044816Z"} 
+[2025-09-03 12:03:17] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:03:17] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:03:17] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:03:17] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:03:20] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:03:20] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:03:20] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:03:20] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:03:25] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:03:25] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:04:59] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:04:59] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:04:59] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#27 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#28 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#29 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(208): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /var/www/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#26 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#27 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#28 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#29 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#30 {main}
+"} 
+[2025-09-03 12:04:59] local.ERROR: Target class [Illuminate\Http\Middleware\AddHeaders] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\AddHeaders] does not exist. at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1162)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#9 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Illuminate\\Http\\Middleware\\AddHeaders\" does not exist at /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:1160)
+[stacktrace]
+#0 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(1160): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(971): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(902): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(257): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(215): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1221): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 /var/www/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/var/www/public...')
+#10 {main}
+"} 
+[2025-09-03 12:14:46] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"5UVe8IoaZgJGrC283Joz9ZXjD2kXLcYdzwhPwvSZ"} 
+[2025-09-03 12:14:52] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"5UVe8IoaZgJGrC283Joz9ZXjD2kXLcYdzwhPwvSZ"} 
+[2025-09-03 12:14:55] local.INFO: User logout attempt {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","user_agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36","timestamp":"2025-09-03T12:14:55.763497Z"} 
+[2025-09-03 12:14:55] local.INFO: User logged out successfully {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-03T12:14:55.770807Z"} 
+[2025-09-03 12:15:26] local.INFO: Login attempt {"email":"jan@gmail.com","session_id":"Rg6qM5HOIOwn7AJefTKqdtFQYAdsTr1D2XpRciJs"} 
+[2025-09-03 12:17:28] local.INFO: User logout attempt {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","user_agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36","timestamp":"2025-09-03T12:17:28.188891Z"} 
+[2025-09-03 12:17:28] local.INFO: User logged out successfully {"user_id":3,"user_email":"jan@gmail.com","ip_address":"172.18.0.5","timestamp":"2025-09-03T12:17:28.209515Z"} 

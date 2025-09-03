@@ -20,9 +20,14 @@ return Application::configure(basePath: dirname(__DIR__))
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
         ]);
         
-        // Enable CORS;
+        // Enable CORS
         $middleware->api(prepend: [
             \Illuminate\Http\Middleware\HandleCors::class,
+        ]);
+        
+        // Add global security headers
+        $middleware->append([
+            \App\Http\Middleware\AddSecurityHeaders::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
